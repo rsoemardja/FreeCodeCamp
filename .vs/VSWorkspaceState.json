@@ -2,9 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\Python",
+    "\\Python\\Connect Four",
+    "\\Python\\Connect Four\\AI",
+    "\\Python\\Online Multiplayer Game",
     "\\Python\\Pong",
+    "\\Python\\Snake",
+    "\\Python\\Tetris",
     "\\React"
   ],
-  "SelectedNode": "\\Python\\Pong\\Solution.py",
+  "SelectedNode": "\\Python\\Connect Four\\AI\\ConnectFour_with_ai.py",
   "PreviewInSolutionExplorer": false
 }
