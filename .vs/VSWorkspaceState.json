@@ -8,8 +8,10 @@
     "\\Python\\Pong",
     "\\Python\\Snake",
     "\\Python\\Tetris",
-    "\\React"
+    "\\React",
+    "\\Responsive Web Design",
+    "\\Responsive Web Design\\Basic CSS"
   ],
-  "SelectedNode": "\\Python\\Connect Four\\AI\\ConnectFour_with_ai.py",
+  "SelectedNode": "\\Python\\Tetris\\Tetris.py",
   "PreviewInSolutionExplorer": false
 }
