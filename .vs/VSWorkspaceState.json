@@ -1,9 +1,16 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Javascript",
+    "\\Javascript\\Brick Breaker",
+    "\\Javascript\\Brick Breaker\\src",
+    "\\Python",
+    "\\Python\\Online Multiplayer Game\\DemoFile",
+    "\\Python\\Snake",
+    "\\Python\\Snake Tutorial",
     "\\React",
-    "\\Responsive Web Design",
-    "\\Responsive Web Design\\Basic CSS"
+    "\\Responsive Web Design"
   ],
+  "SelectedNode": "\\Javascript\\Brick Breaker\\package.json",
   "PreviewInSolutionExplorer": false
 }
