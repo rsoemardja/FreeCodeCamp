@@ -7,10 +7,14 @@
 
   .container {
     font-size: 40px;
+    min-height: 300px;
     width: 100%;
     background: LightGray;
-    /* add your code below this line */
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    /* add your code below this line */
+    grid-column-gap: 20px;
 
     /* add your code above this line */
   }
