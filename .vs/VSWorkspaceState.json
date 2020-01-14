@@ -1,14 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Javascript",
-    "\\Javascript\\Brick Breaker",
-    "\\Javascript\\Brick Breaker\\src",
+    "\\Javascript Algorithms and Data Structures",
+    "\\Javascript Algorithms and Data Structures\\Basic Data Structures",
+    "\\Python",
     "\\Python\\Beginner Course",
+    "\\Python\\Beginner Course\\Drawing a Shape",
     "\\Python\\Beginner Course\\Hello World",
+    "\\Python\\Beginner Course\\Variables & Data Types",
     "\\React",
     "\\Responsive Web Design"
   ],
-  "SelectedNode": "\\Python",
+  "SelectedNode": "\\Python\\Beginner Course\\Functions",
   "PreviewInSolutionExplorer": false
 }
