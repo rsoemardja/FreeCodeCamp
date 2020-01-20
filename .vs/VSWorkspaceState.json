@@ -1,16 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Javascript Algorithms and Data Structures",
-    "\\Javascript Algorithms and Data Structures\\Basic Data Structures",
     "\\Python",
-    "\\Python\\Beginner Course",
-    "\\Python\\Beginner Course\\Drawing a Shape",
-    "\\Python\\Beginner Course\\Hello World",
-    "\\Python\\Beginner Course\\Variables & Data Types",
-    "\\React",
-    "\\Responsive Web Design"
+    "\\Python\\TkInter",
+    "\\Python\\TkInter\\base",
+    "\\Python\\TkInter\\crm2",
+    "\\Python\\TkInter\\draw",
+    "\\Python\\TkInter\\plots",
+    "\\Python\\TkInter\\slider",
+    "\\Python\\TkInter\\Sliders",
+    "\\Python\\TkInter\\textbox"
   ],
-  "SelectedNode": "\\Python\\Beginner Course\\Functions",
+  "SelectedNode": "\\Python\\TkInter\\draw\\draw.py",
   "PreviewInSolutionExplorer": false
 }
