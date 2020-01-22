@@ -3,14 +3,14 @@
     "",
     "\\Python",
     "\\Python\\TkInter",
-    "\\Python\\TkInter\\base",
     "\\Python\\TkInter\\crm2",
     "\\Python\\TkInter\\draw",
-    "\\Python\\TkInter\\plots",
-    "\\Python\\TkInter\\slider",
-    "\\Python\\TkInter\\Sliders",
-    "\\Python\\TkInter\\textbox"
+    "\\Python\\TkInter\\graphs",
+    "\\Python\\TkInter\\images",
+    "\\Python\\TkInter\\message",
+    "\\Python\\TkInter\\new window",
+    "\\Python\\TkInter\\status"
   ],
-  "SelectedNode": "\\Python\\TkInter\\draw\\draw.py",
+  "SelectedNode": "\\Python\\TkInter\\database2\\database2.py",
   "PreviewInSolutionExplorer": false
 }
