@@ -2,15 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\Python",
-    "\\Python\\TkInter",
-    "\\Python\\TkInter\\crm2",
-    "\\Python\\TkInter\\draw",
-    "\\Python\\TkInter\\graphs",
-    "\\Python\\TkInter\\images",
-    "\\Python\\TkInter\\message",
-    "\\Python\\TkInter\\new window",
-    "\\Python\\TkInter\\status"
+    "\\React",
+    "\\React\\Tetris",
+    "\\React\\Tetris\\react-tetris-starter-files-master",
+    "\\React\\Tetris\\react-tetris-starter-files-master\\Stepped Solutions\\react-tetris - before video 10",
+    "\\React\\Tetris\\react-tetris-starter-files-master\\Stepped Solutions\\react-tetris - before video 3",
+    "\\React\\Tetris\\react-tetris-starter-files-master\\Stepped Solutions\\react-tetris - before video 3\\public"
   ],
-  "SelectedNode": "\\Python\\TkInter\\database2\\database2.py",
+  "SelectedNode": "\\React",
   "PreviewInSolutionExplorer": false
 }
