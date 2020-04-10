@@ -1,7 +1,8 @@
 <script>
   $(document).ready(function() {
     $("#target1").css("color", "red");
-    $("#target4").html("<em>#target4</em>");
+    // This is a html script at #target4 using the <em> (emphasis tag)
+    $("#target4").html('<em>#target4</em>');
   });
 </script>
 

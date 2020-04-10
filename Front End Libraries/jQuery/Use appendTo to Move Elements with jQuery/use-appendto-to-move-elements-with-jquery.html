@@ -1,8 +1,10 @@
 <script>
   $(document).ready(function() {
     $("#target1").css("color", "red");
-    // This is a html script at #target4 using the <em> (emphasis tag)
-    $("#target4").html('<em>#target4</em>');
+    $("#target1").prop("disabled", true);
+    $("#target4").remove();
+    // We will move #target2 to the #right-well using appendTo
+    $("#target2").appendTo("#right-well");
   });
 </script>
 

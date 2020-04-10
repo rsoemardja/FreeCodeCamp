@@ -1,8 +1,9 @@
 <script>
   $(document).ready(function() {
     $("#target1").css("color", "red");
-    // This is a html script at #target4 using the <em> (emphasis tag)
-    $("#target4").html('<em>#target4</em>');
+    $("#target1").prop("disabled", true);
+    // We removed #target4 using the .remove in the HTML element entirely
+    $("#target4").remove();
   });
 </script>
 
