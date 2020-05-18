@@ -1,14 +1,20 @@
 {
   "ExpandedNodes": [
     "",
-    "\\React",
-    "\\React\\Tetris",
+    "\\APIs and Microservices",
+    "\\APIs and Microservices\\APIs and Microservices Projects",
+    "\\APIs and Microservices\\Basic Node and Express",
+    "\\APIs and Microservices\\Managing Packages with Npm",
+    "\\APIs and Microservices\\Managing Packages with Npm\\How to Use package.json, the Core of Any Node.js Project or npm Package",
+    "\\APIs and Microservices\\MongoDB and Mongoose",
+    "\\React\\Tetris\\react-tetris",
+    "\\React\\Tetris\\react-tetris\\src",
     "\\React\\Tetris\\Solution Files",
     "\\React\\Tetris\\Solution Files\\react-tetris-starter-files-master",
     "\\React\\Tetris\\Solution Files\\react-tetris-starter-files-master\\Stepped Solutions",
     "\\React\\Tetris\\Solution Files\\react-tetris-starter-files-master\\Stepped Solutions\\react-tetris - before video 3",
     "\\React\\Tetris\\Solution Files\\react-tetris-starter-files-master\\Stepped Solutions\\react-tetris - before video 3\\src"
   ],
-  "SelectedNode": "\\React\\Tetris\\Solution Files\\react-tetris-starter-files-master\\Stepped Solutions\\react-tetris - before video 3\\src\\App.test.js",
+  "SelectedNode": "\\APIs and Microservices\\Managing Packages with Npm\\How to Use package.json, the Core of Any Node.js Project or npm Package",
   "PreviewInSolutionExplorer": false
 }
