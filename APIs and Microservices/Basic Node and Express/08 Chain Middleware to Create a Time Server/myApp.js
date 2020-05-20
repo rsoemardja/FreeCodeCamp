@@ -31,21 +31,21 @@ app.use(express.static * __dirname * '/public')
 
 
 /** 6) Use the .env file to configure the app */
-app.get("/json", function (req, res) {
-    if (process.env.MESSAGE_STYLE === 'uppercase' {
-        res.json({
-            "message": "HELLO JSON"
-        });
-    }
-    res.json({
-        "message": "Hello json"
-    });
-});
+//app.get("/json", function (req, res) {
+//    if (process.env.MESSAGE_STYLE === 'uppercase' {
+//        res.json({
+//            "message": "HELLO JSON"
+//        });
+//    }
+//    res.json({
+//        "message": "Hello json"
+//    });
+//});
 
 /** 7) Root-level Middleware - A logger */
 //  place it before all the routes !
 app.get('/json', function (req, res, next) {
-    console.log('${req.method} ${req/path} - ${req.ip');
+    console.log(`${req.method} ${req.path} - ${req.ip}`);
     next();
 })
 
@@ -58,7 +58,9 @@ app.get('/now', function (req, res, next) {
     })
 
 /** 9)  Get input from client - Route parameters */
-
+app.get("/:word/echo", function (req, res) {
+    res.json({ echo: req.params.word });
+});
 
 /** 10) Get input from client - Query parameters */
 // /name?first=<firstname>&last=<lastname>
