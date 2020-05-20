@@ -45,7 +45,7 @@ app.get("/json", function (req, res) {
 /** 7) Root-level Middleware - A logger */
 //  place it before all the routes !
 app.get('/json', function (req, res, next) {
-    console.log('${req.method} ${req/path} - ${req.ip');
+    console.log(`${req.method} ${req.path} - ${req.ip}`);
     next();
 })
 
