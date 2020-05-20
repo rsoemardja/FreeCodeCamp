@@ -3,14 +3,14 @@
     "",
     "\\APIs and Microservices",
     "\\APIs and Microservices\\Basic Node and Express",
+    "\\APIs and Microservices\\Basic Node and Express\\01 Meet the Node console",
+    "\\APIs and Microservices\\Basic Node and Express\\01 Meet the Node console\\public",
+    "\\APIs and Microservices\\Basic Node and Express\\02 Start a Working Express Server",
+    "\\APIs and Microservices\\Basic Node and Express\\03 Serve an HTML File",
     "\\APIs and Microservices\\Managing Packages with Npm",
-    "\\APIs and Microservices\\Managing Packages with Npm\\Add a Version to your package.json",
-    "\\APIs and Microservices\\Managing Packages with Npm\\Expand Your Project with External Packages from npm",
-    "\\APIs and Microservices\\Managing Packages with Npm\\Manage npm Dependencies By Understanding Semantic Versioning",
-    "\\APIs and Microservices\\Managing Packages with Npm\\Remove a Package from Your Dependencies",
     "\\APIs and Microservices\\Managing Packages with Npm\\Use the Caret-Character to Use the Latest Minor Version of a Dependency",
     "\\APIs and Microservices\\Managing Packages with Npm\\Use the Tilde-Character to Always Use the Latest Patch Version of a Dependency"
   ],
-  "SelectedNode": "\\APIs and Microservices\\Managing Packages with Npm\\Manage npm Dependencies By Understanding Semantic Versioning\\README.md",
+  "SelectedNode": "\\APIs and Microservices\\Basic Node and Express\\03 Serve an HTML File\\myApp.js",
   "PreviewInSolutionExplorer": false
 }
