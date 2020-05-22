@@ -2,15 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\APIs and Microservices",
-    "\\APIs and Microservices\\Basic Node and Express",
-    "\\APIs and Microservices\\Basic Node and Express\\01 Meet the Node console",
-    "\\APIs and Microservices\\Basic Node and Express\\01 Meet the Node console\\public",
-    "\\APIs and Microservices\\Basic Node and Express\\02 Start a Working Express Server",
-    "\\APIs and Microservices\\Basic Node and Express\\03 Serve an HTML File",
-    "\\APIs and Microservices\\Managing Packages with Npm",
-    "\\APIs and Microservices\\Managing Packages with Npm\\Use the Caret-Character to Use the Latest Minor Version of a Dependency",
-    "\\APIs and Microservices\\Managing Packages with Npm\\Use the Tilde-Character to Always Use the Latest Patch Version of a Dependency"
+    "\\APIs and Microservices\\Basic Node and Express\\09 Get Route Parameter Input from the Client",
+    "\\APIs and Microservices\\Basic Node and Express\\10 Get Query Parameter Input from the Client",
+    "\\APIs and Microservices\\Basic Node and Express\\11 Use body-parser to Parse POST Requests",
+    "\\APIs and Microservices\\Basic Node and Express\\12 Get Data from POST Requests",
+    "\\APIs and Microservices\\Managing Packages with Npm\\Manage npm Dependencies By Understanding Semantic Versioning",
+    "\\APIs and Microservices\\Managing Packages with Npm\\Remove a Package from Your Dependencies",
+    "\\APIs and Microservices\\MongoDB and Mongoose",
+    "\\APIs and Microservices\\MongoDB and Mongoose\\03 Create and Save a Record of a Model"
   ],
-  "SelectedNode": "\\APIs and Microservices\\Basic Node and Express\\03 Serve an HTML File\\myApp.js",
+  "SelectedNode": "\\APIs and Microservices\\MongoDB and Mongoose\\03 Create and Save a Record of a Model\\myApp.js",
   "PreviewInSolutionExplorer": false
 }
