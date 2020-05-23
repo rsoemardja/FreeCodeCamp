@@ -1,18 +1,21 @@
 /**********************************************
- * 3. FCC Mongo & Mongoose Challenges
- * ==================================
- ***********************************************/
+* 3. FCC Mongo & Mongoose Challenges
+* ==================================
+***********************************************/
 
 /** # MONGOOSE SETUP #
 /*  ================== */
 
 /** 1) Install & Set up mongoose */
 
-// Add mongodb and mongoose to the project's package.json. Then require
-// mongoose. Store your Mongo Atlas database URI in the private .env file
+// Add mongodb and mongoose to the project's package.json. Then require 
+// mongoose. Store your Mongo Atlas database URI in the private .env file 
 // as MONGO_URI. Connect to the database using the following syntax:
 //
-// mongoose.connect(<Your URI>, { useNewUrlParser: true, useUnifiedTopology: true });
+// mongoose.connect(<Your URI>, { useNewUrlParser: true, useUnifiedTopology: true }); 
+var mongoose = require('mongoose');
+mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true });
+
 
 /** # SCHEMAS and MODELS #
 /*  ====================== */
@@ -38,19 +41,22 @@
 // `default` values. See the [mongoose docs](http://mongoosejs.com/docs/guide.html).
 
 // <Your code here >
-var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
 
-var personSchema = new Schema({
-    name: {
-        type: String,
-        required: true
-    },
+var Person = new mongoose.Schema({
+    name: String,
     age: Number,
-    favoriteFoods: [String]
+    favoriteFoods: Array,
 });
 
-var Person = mongoose.model('Person', personSchema); /* = <Your Model> */
+var Person = mongoose.model('Person', Person);
+
+/* = <Your Model> */
+
+let rama = new Person({
+    name: "Rama",
+    age: 25,
+    favouriteFoods: ["Pizza", "Rice"]
+});
 
 // **Note**: Glitch is a real server, and in real servers interactions with
 // the db are placed in handler functions, to be called when some event happens
@@ -78,7 +84,7 @@ var Person = mongoose.model('Person', personSchema); /* = <Your Model> */
 // and `favoriteFoods`. Their types must be conformant to the ones in
 // the Person `Schema`. Then call the method `document.save()` on the returned
 // document instance, passing to it a callback using the Node convention.
-// This is a common pattern, all the **CRUD** methods take a callback
+// This is a common pattern, all the **CRUD** methods take a callback 
 // function like this as the last argument.
 
 // - Example -
@@ -86,22 +92,12 @@ var Person = mongoose.model('Person', personSchema); /* = <Your Model> */
 // person.save(function(err, data) {
 //    ...do your stuff here...
 // });
-var Person = mongoose.model('Person', personSchema);
 
 var createAndSavePerson = function (done) {
-    var janeFonda = new Person({ name: "Jane Fonda", age: 84, favoriteFoods: ["vodka", "air"] });
-
-    janeFonda.save(function (err, data) {
-        if (err) return console.error(err);
-        done(null, data)
-    });
-    var jamesFonda = new Person({ name: "Jamee Fonda", age: 84, favoriteFoods: ["vodka", "air"] });
-
-    jamesFonda.save(function (err, data) {
-        if (err) return console.error(err);
-        done(null, data)
-    });
+    var personInstance = new Person({ name: 'John', age: 29, favoriteFoods: ['Pao', 'Hamburger'] });
+    personInstance.save((err, data) => err ? done(err) : done(null, data));
 };
+
 /** 4) Create many People with `Model.create()` */
 
 // Sometimes you need to create many Instances of your Models,

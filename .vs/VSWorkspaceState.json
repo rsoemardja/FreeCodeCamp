@@ -2,12 +2,6 @@
   "ExpandedNodes": [
     "",
     "\\APIs and Microservices",
-    "\\APIs and Microservices\\Basic Node and Express\\09 Get Route Parameter Input from the Client",
-    "\\APIs and Microservices\\Basic Node and Express\\10 Get Query Parameter Input from the Client",
-    "\\APIs and Microservices\\Basic Node and Express\\11 Use body-parser to Parse POST Requests",
-    "\\APIs and Microservices\\Basic Node and Express\\12 Get Data from POST Requests",
-    "\\APIs and Microservices\\Managing Packages with Npm\\Manage npm Dependencies By Understanding Semantic Versioning",
-    "\\APIs and Microservices\\Managing Packages with Npm\\Remove a Package from Your Dependencies",
     "\\APIs and Microservices\\MongoDB and Mongoose",
     "\\APIs and Microservices\\MongoDB and Mongoose\\03 Create and Save a Record of a Model"
   ],
