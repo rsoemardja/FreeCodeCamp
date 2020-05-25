@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Info Security and QA",
+    "\\Info Security and QA\\Info Security with HelmetJS\\12 Understand BCrypt Hashes",
+    "\\Info Security and QA\\Info Security with HelmetJS\\13 Hash and Compare Passwords Asynchronously",
+    "\\Info Security and QA\\Info Security with HelmetJS\\14 Hash and Compare Passwords Synchronously",
+    "\\Info Security and QA\\Quality Assurance and Testing with Chai"
   ],
+  "SelectedNode": "\\Info Security and QA\\Info Security with HelmetJS",
   "PreviewInSolutionExplorer": false
 }
