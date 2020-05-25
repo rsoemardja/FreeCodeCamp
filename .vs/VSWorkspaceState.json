@@ -1,16 +1,6 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\APIs and Microservices\\MongoDB and Mongoose\\09 Perform New Updates on a Document Using model.findOneAndUpdate()",
-    "\\APIs and Microservices\\MongoDB and Mongoose\\10 Delete One Document Using model.findByIdAndRemove",
-    "\\APIs and Microservices\\MongoDB and Mongoose\\11 Delete Many Documents with model.remove()",
-    "\\APIs and Microservices\\MongoDB and Mongoose\\12 Chain Search Query Helpers to Narrow Search",
-    "\\Information Security and Quality Assurance",
-    "\\Information Security and Quality Assurance\\Information Security with HelmetJS",
-    "\\Information Security and Quality Assurance\\Information Security with HelmetJS\\01 Install and Require Helmet",
-    "\\Information Security and Quality Assurance\\Information Security with HelmetJS\\02 Hide Potentially Dangerous Information Using helmet.hidePoweredBy()",
-    "\\Information Security and Quality Assurance\\Information Security with HelmetJS\\03 Mitigate the Risk of Clickjacking with helmet.frameguard()"
+    ""
   ],
-  "SelectedNode": "\\Information Security and Quality Assurance\\Information Security with HelmetJS\\03 Mitigate the Risk of Clickjacking with helmet.frameguard()\\myApp.js",
   "PreviewInSolutionExplorer": false
 }
