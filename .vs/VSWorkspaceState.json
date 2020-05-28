@@ -2,16 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\Info Security and QA",
-    "\\Info Security and QA\\QA and Testing with Chai",
-    "\\Info Security and QA\\QA and Testing with Chai\\16 Test if an Object has a Property",
-    "\\Info Security and QA\\QA and Testing with Chai\\16 Test if an Object has a Property\\tests",
-    "\\Info Security and QA\\QA and Testing with Chai\\17 Test if a Value is of Specific Data Structure Type",
-    "\\Info Security and QA\\QA and Testing with Chai\\17 Test if a Value is of Specific Data Structure Type\\tests",
-    "\\Info Security and QA\\QA and Testing with Chai\\18 Test if an Object is an Instance of a Constructor",
-    "\\Info Security and QA\\QA and Testing with Chai\\18 Test if an Object is an Instance of a Constructor\\tests",
-    "\\Info Security and QA\\QA and Testing with Chai\\19 Run Functional Tests on API Endpoints using Chai-HTTP",
-    "\\Info Security and QA\\QA and Testing with Chai\\19 Run Functional Tests on API Endpoints using Chai-HTTP\\tests"
+    "\\Info Security and QA\\Advanced Node and Express",
+    "\\Info Security and QA\\Advanced Node and Express\\04 Serialization of a User Object",
+    "\\Info Security and QA\\Advanced Node and Express\\05 Implement the Serialization of a Passport User",
+    "\\Info Security and QA\\Information Security and Quality Assurance Projects",
+    "\\Info Security and QA\\QA and Testing with Chai\\21 Run Functional Tests on API Endpoints using Chai-HTTP III\\tests",
+    "\\Info Security and QA\\QA and Testing with Chai\\22 Run Functional Tests on API Endpoints using Chai-HTTP IV\\tests",
+    "\\Info Security and QA\\QA and Testing with Chai\\23 Run Functional Tests using a Headless Browser\\tests",
+    "\\Info Security and QA\\QA and Testing with Chai\\24 Run Functional Tests using a Headless Browser II\\tests"
   ],
-  "SelectedNode": "\\Info Security and QA\\QA and Testing with Chai\\19 Run Functional Tests on API Endpoints using Chai-HTTP\\tests\\2_functional-tests.js",
+  "SelectedNode": "\\Info Security and QA\\Advanced Node and Express\\05 Implement the Serialization of a Passport User\\package.json",
   "PreviewInSolutionExplorer": false
 }
