@@ -5,12 +5,8 @@
     "\\Info Security and QA\\Advanced Node and Express",
     "\\Info Security and QA\\Advanced Node and Express\\04 Serialization of a User Object",
     "\\Info Security and QA\\Advanced Node and Express\\05 Implement the Serialization of a Passport User",
-    "\\Info Security and QA\\Information Security and Quality Assurance Projects",
-    "\\Info Security and QA\\QA and Testing with Chai\\21 Run Functional Tests on API Endpoints using Chai-HTTP III\\tests",
-    "\\Info Security and QA\\QA and Testing with Chai\\22 Run Functional Tests on API Endpoints using Chai-HTTP IV\\tests",
-    "\\Info Security and QA\\QA and Testing with Chai\\23 Run Functional Tests using a Headless Browser\\tests",
-    "\\Info Security and QA\\QA and Testing with Chai\\24 Run Functional Tests using a Headless Browser II\\tests"
+    "\\Info Security and QA\\Information Security and Quality Assurance Projects"
   ],
-  "SelectedNode": "\\Info Security and QA\\Advanced Node and Express\\05 Implement the Serialization of a Passport User\\package.json",
+  "SelectedNode": "\\Info Security and QA\\Advanced Node and Express\\04 Serialization of a User Object\\server.js",
   "PreviewInSolutionExplorer": false
 }
