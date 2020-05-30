@@ -6,7 +6,8 @@ const bodyParser = require("body-parser");
 const session = require("express-session");
 const passport = require("passport");
 const db = require("mongodb");
-const ObjectID = require('mongodb').ObjectID;
+const mongo = db.MongoClient;
+const ObjectID = db.ObjectID;
 const app = express();
 
 fccTesting(app); //For FCC testing purposes
@@ -31,8 +32,18 @@ passport.serializeUser((user, done) => {
 });
 passport.deserializeUser((id, done) => {
     db.collection("users").findOne({ _id: new ObjectID(id) }, (err, doc) => {
-        done(null, null);
+        done(null, doc);
     });
+});
+
+mongo.connect(process.env.DATABASE, (err, db) => {
+    if (err) {
+        console.log("Database error: " + err);
+    } else {
+        console.log("Successful database connection");
+
+        //serialization and app.listen
+    }
 });
 
 app.route("/").get((req, res) => {
