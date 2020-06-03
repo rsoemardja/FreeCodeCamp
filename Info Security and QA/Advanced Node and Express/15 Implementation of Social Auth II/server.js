@@ -6,6 +6,7 @@ const fccTesting = require('./freeCodeCamp/fcctesting.js');
 const session = require('express-session');
 const mongo = require('mongodb').MongoClient;
 const passport = require('passport');
+const GitHubStrategy = require('passport-github').Strategy;
 
 const app = express();
 
@@ -55,11 +56,40 @@ mongo.connect(process.env.DATABASE, (err, db) => {
         /*
         *  ADD YOUR CODE BELOW
         */
-
-
-
-
-
+        const myAwesomeDb = db.db('users');
+        passport.use(new GitHubStrategy({
+            clientID: process.env.GITHUB_CLIENT_ID,
+            clientSecret: process.env.GITHUB_CLIENT_SECRET,
+            callbackURL: "https://social-auth-fcc-2019.glitch.me/auth/github/callback"
+        },
+            function (accessToken, refreshToken, profile, cb) {
+                // myAwesomeDb.collection('users').findOrCreate({ githubId: profile.id }, function (err, user) {
+                //   return cb(err, user); 
+                // });
+                myAwesomeDb.collection('users').findAndModify(
+                    { id: profile.id },
+                    {},
+                    {
+                        $setOnInsert: {
+                            id: profile.id,
+                            name: profile.displayName || 'John Doe',
+                            photo: profile.photos[0].value || '',
+                            email: profile.email || 'No public email',
+                            created_on: new Date(),
+                            provider: profile.provider || ''
+                        }, $set: {
+                            last_login: new Date()
+                        }, $inc: {
+                            login_count: 1
+                        }
+                    },
+                    { upsert: true, new: true },
+                    (err, doc) => {
+                        return cb(null, doc.value);
+                    }
+                );
+            }
+        ));
 
         app.route('/auth/github')
             .get(passport.authenticate('github'));
@@ -72,7 +102,6 @@ mongo.connect(process.env.DATABASE, (err, db) => {
         /*
         *  ADD YOUR CODE ABOVE
         */
-
 
         app.route('/')
             .get((req, res) => {
@@ -100,4 +129,4 @@ mongo.connect(process.env.DATABASE, (err, db) => {
             console.log("Listening on port " + process.env.PORT);
         });
     }
-}); 
+});
