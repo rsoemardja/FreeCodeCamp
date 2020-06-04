@@ -3,14 +3,14 @@
     "",
     "\\Info Security and QA",
     "\\Info Security and QA\\Advanced Node and Express",
-    "\\Info Security and QA\\Advanced Node and Express\\07 How to Use Passport Strategies",
-    "\\Info Security and QA\\Advanced Node and Express\\08 Create New Middleware",
-    "\\Info Security and QA\\Advanced Node and Express\\09 How to Put a Profile Together",
-    "\\Info Security and QA\\Advanced Node and Express\\10 Logging a User Out",
-    "\\Info Security and QA\\Advanced Node and Express\\15 Implementation of Social Auth II",
+    "\\Info Security and QA\\Advanced Node and Express\\14 Implementation of Social Auth",
     "\\Info Security and QA\\Advanced Node and Express\\16 Implementation of Social Auth III",
-    "\\Info Security and QA\\Advanced Node and Express\\17 Set up the Environment"
+    "\\Info Security and QA\\Advanced Node and Express\\17 Set up the Environment",
+    "\\Info Security and QA\\Advanced Node and Express\\18 Communicate by Emitting",
+    "\\Info Security and QA\\Advanced Node and Express\\19 Handle a Disconnect",
+    "\\Info Security and QA\\Advanced Node and Express\\20 Authentication with Socket.IO",
+    "\\Info Security and QA\\Advanced Node and Express\\22 Send and Display Chat Messages"
   ],
-  "SelectedNode": "\\Info Security and QA\\Advanced Node and Express\\13 Clean Up Your Project with Modules\\.env",
+  "SelectedNode": "\\Info Security and QA\\Advanced Node and Express\\16 Implementation of Social Auth III\\package.json",
   "PreviewInSolutionExplorer": false
 }
