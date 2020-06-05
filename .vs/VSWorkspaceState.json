@@ -1,16 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Info Security and QA",
-    "\\Info Security and QA\\Advanced Node and Express",
-    "\\Info Security and QA\\Advanced Node and Express\\14 Implementation of Social Auth",
-    "\\Info Security and QA\\Advanced Node and Express\\16 Implementation of Social Auth III",
-    "\\Info Security and QA\\Advanced Node and Express\\17 Set up the Environment",
-    "\\Info Security and QA\\Advanced Node and Express\\18 Communicate by Emitting",
-    "\\Info Security and QA\\Advanced Node and Express\\19 Handle a Disconnect",
-    "\\Info Security and QA\\Advanced Node and Express\\20 Authentication with Socket.IO",
-    "\\Info Security and QA\\Advanced Node and Express\\22 Send and Display Chat Messages"
+    "\\Front End Libraries\\Front End Liraries Projects",
+    "\\Javascript",
+    "\\Javascript\\Tetris",
+    "\\Responsive Web Design\\Projects",
+    "\\Responsive Web Design\\Projects\\Build a Personal Portfolio Webpage",
+    "\\Responsive Web Design\\Projects\\Build a Tribute Page"
   ],
-  "SelectedNode": "\\Info Security and QA\\Advanced Node and Express\\16 Implementation of Social Auth III\\package.json",
+  "SelectedNode": "\\Javascript\\Tetris\\app.js",
   "PreviewInSolutionExplorer": false
 }
