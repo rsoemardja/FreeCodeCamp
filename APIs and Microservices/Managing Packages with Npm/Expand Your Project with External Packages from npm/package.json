@@ -7,7 +7,7 @@
     "keyword"
   ],
   "dependencies": {
-    "moment": "^2.14.0",
+    "moment": "^2.29.2",
     "express": "^4.17.1"
   },
   "engines": {
