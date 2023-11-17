@@ -1,0 +1,16 @@
+// Example
+function ourReusableFunction() {
+  console.log("Heyya, World");
+}
+
+ourReusableFunction();
+
+// Only change code below this line
+
+// Creating the function reuseableFunction
+function reusableFunction() {
+  console.log("Hi World");
+}
+
+//  Calling the function
+reusableFunction();

@@ -1,0 +1,3 @@
+// The main.scss file
+//We are writing an @import statement to import the _variable.scss to the main.scss file
+@import 'variables'

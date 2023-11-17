@@ -1,0 +1,4 @@
+/*We are writing Hello JSX in React */
+/*React is a JavaScript Library Created by Facebook*/
+/*React is a User Interface (UI) Library */
+const JSX = <h1>Hello JSX!</h1>;
