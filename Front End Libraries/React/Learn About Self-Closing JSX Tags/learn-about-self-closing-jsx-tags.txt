@@ -1,9 +1,0 @@
-const JSX = (
-  <div>
-    /*We are using the br line break */
-    <h2>Welcome to React!</h2> <br/ >
-    <p>Be sure to close all tags!</p>
-    <hr/ >
-    
-  </div>
-);
