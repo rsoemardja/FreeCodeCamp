@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please take a few moments to complete this short survey.</p>
+
+    <form id="survey-form">
+        <label for="name" id="name-label">Enter your name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+    
+        <label for="email" id="email-label">Enter your email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your valid email address" required>
+    
+        <label for="number" id="number-label">Enter a number:</label>
+        <input type="number" id="number" name="number" min="1" max="100" placeholder="Enter a number between 1 and 100" required>
+    
+        <label for="dropdown" id="dropdown-label">Select an option:</label>
+        <select id="dropdown" name="dropdown">
+          <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+          <option value="option3">Option 3</option>
+        </select>
+    
+        <label for="radio">Choose a radio button:</label>
+        <div>
+          <input type="radio" id="radio1" name="radio" value="radio1" checked>
+          <label for="radio1">Radio Option 1</label>
+          <br>
+          <input type="radio" id="radio2" name="radio" value="radio2">
+          <label for="radio2">Radio Option 2</label>
+        </div>
+    
+        <label for="checkboxes">Select checkboxes:</label>
+        <div>
+          <input type="checkbox" id="checkbox1" name="checkbox" value="checkbox1">
+          <label for="checkbox1">Checkbox Option 1</label>
+          <br>
+          <input type="checkbox" id="checkbox2" name="checkbox" value="checkbox2">
+          <label for="checkbox2">Checkbox Option 2</label>
+          <br>
+          <input type="checkbox" id="checkbox3" name="checkbox" value="checkbox3">
+          <label for="checkbox3">Checkbox Option 3</label>
+        </div>
+    
+        <label for="comments">Additional comments:</label>
+        <textarea id="comments" name="comments" placeholder="Enter your additional comments"></textarea>
+    
+        <button type="submit" id="submit">Submit</button>
+      </form>
+</body>
+</html>
+```
